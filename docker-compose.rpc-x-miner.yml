@@ -31,4 +31,4 @@ services:
       --miner.threads=1
       --miner.etherbase=0x61224822ed31db4deA05c5784267c521f541Def5
     volumes:
-      - /blockchain/geth
+      - ./geth//blockchain/geth
